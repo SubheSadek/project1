@@ -1,0 +1,91 @@
+#navbar{
+    background: #122b40;
+    color:#fff;
+    opacity: .7;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    
+}
+#navbar a:hover{
+    opacity: 1;
+    background: #4cae4c;
+}
+
+.header{
+    height: 500px;
+    width:100%;
+    background-image:url('../images/slider3.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0px;
+    color: #fff;
+    margin-top: 50px;
+    
+}
+.header h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.header h1, .header p, .header button{
+    margin:20px 0px;
+}
+.header .btn{
+   border-radius: 0px;
+   width: 150px;
+   
+}
+.header .btn:hover{
+    background: #fff;
+    border:2px solid #000;
+    color:#000;
+    
+}
+
+@media(max-width:768px){
+    .header{
+        height: 620px;
+        
+    }
+    .header h1{
+        font-size: 28px;
+    }
+    .header p{
+        color:#4cae4c;
+    }
+}
+.team{
+    text-align: center;
+    background: #eee;
+    padding:50px 0 80px;
+}
+.team h2, .team h4{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.team h2, .team h4, .team b{
+   margin:20px 0px;
+}
+.team img{
+    margin: auto !important;
+    margin-top: 50px;
+    height: 200px;
+    width:200px;
+    margin-left: 40px;
+    text-align: center;
+}
+.team i{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #c8e5bc;
+    font-size: 25px;
+    color:#000;
+}
+.team i:hover{
+    background:#3c763d;
+    color: #fff;
+    
+}
